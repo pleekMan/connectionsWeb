@@ -1,6 +1,6 @@
 /* -- Material Design Table style -------------- */
 .table {
-	width: 100%;
+	width: 60%;
 	max-width: 100%;
 	margin-bottom: 2rem;
 	background-color: #fff;
@@ -26,6 +26,10 @@
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 	/* line-height: 0.2; */
+	border-style: dashed;
+	border-width: thin;
+	border-color: darkslategray;
+
  }
  .table > thead > tr > th {
 	font-weight: 400;
@@ -82,6 +86,8 @@
  .table-hover > tbody > tr:hover > th {
 	background-color: rgba(0, 0, 0, 0.12);
  }
+
+ /* -- TABLE SWITCHES TO ROW VIEW ON MOBILE -> NO GOOD WITH THE SCHEDULE TABLE
  @media screen and (max-width: 768px) {
 	.table-responsive-vertical > .table {
 	  margin-bottom: 0;
@@ -101,7 +107,6 @@
 	  margin-bottom: 1.6rem;
 	}
 	.table-responsive-vertical > .table > tbody > tr > td {
-	  background-color: #fff;
 	  display: block;
 	  vertical-align: middle;
 	  text-align: right;
@@ -149,6 +154,9 @@
 	  background-color: rgba(0, 0, 0, 0.12);
 	}
  }
+ */
+
+ 
  .table-striped.table-mc-red > tbody > tr:nth-child(odd) > td,
  .table-striped.table-mc-red > tbody > tr:nth-child(odd) > th {
 	background-color: #fde0dc;

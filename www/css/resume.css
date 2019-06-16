@@ -1,3 +1,11 @@
+:root{
+  --color-morning: lightskyblue;
+  --color-software: cornflowerblue;
+  --color-electronics: lightcoral;
+  --color-theory: goldenrod;
+  --color-project:olivedrab;
+  --color-lunch:bisque;
+}
 
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -156,7 +164,7 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    /* min-height: 100vh; */
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
@@ -196,22 +204,81 @@ a:hover, a:focus, a:active {
   line-height: 10px;
 }
 
+#table{
+  margin-left: 20px;
+}
+
 .table-morning{
-  background-color: cadetblue;
+  background-color: var(--color-morning);
+  font-size: 12px;
 }
 
 .table-software{
-  background-color:cornflowerblue
+  background-color:var(--color-software);
 }
 
 .table-electronics{
-  background-color: darkturquoise
+  background-color: var(--color-electronics);
 }
 
 .table-theory{
-  background-color: darkturquoise
+  background-color: var(--color-theory);
 }
 
 .table-project{
-  background-color: darkturquoise
+  background-color: var(--color-project)
+}
+
+.table-lunch{
+  background-color: var(--color-lunch);
+  font-size: 12px;
+}
+
+/* --- DESCRIPTION BULLETS ---*/
+
+.bullet-description{
+  /* color: lightskyblue; */
+  margin-top: 0.4em;
+}
+
+#bullet-morning{
+  color: var(--color-morning);
+}
+
+#bullet-software{
+  color: var(--color-software);
+}
+
+#bullet-electronics{
+  color: var(--color-electronics);
+}
+
+#bullet-theory{
+  color: var(--color-theory);
+}
+
+#bullet-project{
+  color: var(--color-project);
+}
+
+#bullet-lunch{
+  color: var(--color-lunch);
+}
+
+/* -- APPLY BUTTON --*/
+
+#apply-button{
+  display: inline-block;
+  margin: 20px;
+  width: 100px;
+
+  text-align: center;
+  border-style: dotted;
+  border-color: var(--color-project);
+  padding: 10px;
+  background-color: var(--color-electronics);
+  color: var(--color-morning);
+  border-radius: 10px;
+
+
 }
