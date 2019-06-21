@@ -66,7 +66,8 @@ p.lead {
   font-weight: 400;
 }
 
-.subheading {
+.subheading,
+#privacyPolicy>h2 {
   /* text-transform: uppercase; */
   font-weight: 500;
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -312,4 +313,17 @@ a:hover, a:focus, a:active {
   border-radius: 10px; */
 
 
+}
+
+
+#privacyPolicyButton{
+  color: var(--color-darkAccent);
+}
+
+.card-header{
+  padding: 0px;
+}
+
+#privacyPolicy>h1{
+  font-size: 35px;
 }
