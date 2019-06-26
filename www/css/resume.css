@@ -1,14 +1,11 @@
-:root{
-
+:root {
   /* COLOR PALETTE */
   /* MAIN PALETTE */
-  --color-lightShade:#efeff4;
+  --color-lightShade: #efeff4;
   --color-lightAccent: coral;
   --color-mainColor: #54b78a;
   --color-darkAccent: #5e578a;
   --color-darkShade: #232b47;
-  
-
   /* TABLE PALETTE */
   --color-morning: #9cd5d3;
   --color-software: #d39348;
@@ -31,25 +28,19 @@ body {
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
   color: var(--color-lightAccent);
 }
 
-h3{
+h3 {
   color: var(--color-mainColor);
-
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 5.3rem;
   line-height: 5.5rem;
 }
 
@@ -66,8 +57,7 @@ p.lead {
   font-weight: 400;
 }
 
-.subheading,
-#privacyPolicy>h2 {
+.subheading, #privacyPolicy>h2 {
   /* text-transform: uppercase; */
   font-weight: 500;
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -96,7 +86,7 @@ p.lead {
   background-color: #BD5D38;
 }
 
-.social-icons{
+.social-icons {
   display: none;
 }
 
@@ -142,7 +132,6 @@ p.lead {
     margin: auto auto 0;
     padding: 0.5rem;
     background-color: white;
-
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
@@ -221,89 +210,86 @@ a:hover, a:focus, a:active {
 
 /* ----- NEW CSS FOR FUZZY BINAIRES ---- */
 
-.fa-ul>li{
+.fa-ul>li {
   margin-bottom: 10px;
 }
 
-.fa-ul>li>i{
+.fa-ul>li>i {
   color: var(--color-electronics);
 }
 
-
-
-.table-responsive-vertical>td{
+.table-responsive-vertical>td {
   line-height: 10px;
 }
 
-#table{
+#table {
   margin-left: 20px;
 }
 
-.table-morning{
+.table-morning {
   background-color: var(--color-morning);
   font-size: 12px;
 }
 
-.table-software{
-  background-color:var(--color-software);
+.table-software {
+  background-color: var(--color-software);
 }
 
-.table-electronics{
+.table-electronics {
   background-color: var(--color-electronics);
 }
 
-.table-theory{
+.table-theory {
   background-color: var(--color-theory);
 }
 
-.table-project{
+.table-project {
   background-color: var(--color-project)
 }
 
-.table-lunch{
+.table-lunch {
   background-color: var(--color-lunch);
   font-size: 12px;
 }
 
 /* --- DESCRIPTION BULLETS ---*/
 
-.bullet-description{
+.bullet-description {
   /* color: lightskyblue; */
   margin-top: 0.4em;
 }
 
-#bullet-morning{
+#bullet-morning {
   color: var(--color-morning);
 }
 
-#bullet-software{
+#bullet-software {
   color: var(--color-software);
 }
 
-#bullet-electronics{
+#bullet-electronics {
   color: var(--color-electronics);
 }
 
-#bullet-theory{
+#bullet-theory {
   color: var(--color-theory);
 }
 
-#bullet-project{
+#bullet-project {
   color: var(--color-project);
 }
 
-#bullet-lunch{
+#bullet-lunch {
   color: var(--color-lunch);
 }
 
 /* -- APPLY BUTTON --*/
 
-#apply-button{
+#apply-button {
   /* display: inline-block; */
   margin: 20px;
   /* width: 100px; */
   background-color: var(--color-mainColor);
-
   /* text-align: center;
   border-style: dotted;
   border-color: var(--color-project);
@@ -311,19 +297,31 @@ a:hover, a:focus, a:active {
   background-color: var(--color-electronics);
   color: var(--color-morning);
   border-radius: 10px; */
-
-
 }
 
-
-#privacyPolicyButton{
+#privacyPolicyButton {
   color: var(--color-darkAccent);
 }
 
-.card-header{
+.card-header {
   padding: 0px;
 }
 
-#privacyPolicy>h1{
+#privacyPolicy>h1 {
   font-size: 35px;
+}
+
+/* NAV BAR MOBILE BUTTON */
+
+.navbar-dark .navbar-toggler {
+  background-color: var(--color-lightAccent);
+}
+
+.navbar-dark .navbar-brand {
+  color: var(--color-darkAccent);
+}
+
+.littleImage {
+  margin: 10px !important;
+  text-align: center;
 }
