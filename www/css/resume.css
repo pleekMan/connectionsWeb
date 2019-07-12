@@ -15,10 +15,18 @@
   --color-lunch: lightgrey;
 }
 
+html, .root {
+  font-size: 16px;
+  /*line-height: 33px;*/
+}
+
 body {
-  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Open Sans', sans-serif;
+ /* font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
   padding-top: 54px;
   color: var(--color-darkShade);
+  font-size: 1em;
+  line-height: 1.57777778em;
 }
 
 @media (min-width: 992px) {
@@ -29,9 +37,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+/* font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
+  /*font-weight: 700;*/
+ /* text-transform: uppercase; */
   color: var(--color-lightAccent);
 }
 
@@ -40,21 +49,29 @@ h3 {
 }
 
 h1 {
-  font-size: 5.3rem;
-  line-height: 5.5rem;
+  font-size: 4.88888889em;
+  line-height: 1.06976744em;
+  margin-top: 0.53488372em;
+  margin-bottom: 1.06976744em;
+}
 }
 
 h2 {
-  font-size: 3.5rem;
+   font-size: 1.77777778em;
+  line-height: 1.4375em;
+  margin-top: 0.71875em;
+  margin-bottom: 0.71875em;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.33333333em;
+  line-height: 1.91666667em;
+  margin-top: 0.95833333em;
+  margin-bottom: 0em;
 }
 
 p.lead {
-  font-size: 1.15rem;
-  font-weight: 400;
+  font-size: 0.6em;
 }
 
 .subheading, #privacyPolicy>h2 {
@@ -101,7 +118,7 @@ p.lead {
 #sideNav .navbar-nav .nav-item .nav-link {
   /* font-weight: 800; */
   letter-spacing: 0.05rem;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   color: var(--color-lightAccent);
 }
 
@@ -124,6 +141,7 @@ p.lead {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
+    /*background-image: linear-gradient(white, cyan);*/
   }
   #sideNav .navbar-brand {
     display: -webkit-box;
@@ -136,7 +154,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+   /* border: 0.5rem solid rgba(255, 255, 255, 0.2); */
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
