@@ -26,16 +26,16 @@
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 	/* line-height: 0.2; */
-	border-style: dashed;
-	border-width: thin;
-	border-color: lightgray;
+	border-style: none;
+/*	border-width: thin;
+	border-color: lightgray; */
 
  }
  .table > thead > tr > th {
-	font-weight: 400;
+	/*font-weight: 400;*/
 	color: #757575;
 	vertical-align: bottom;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+	/*border-bottom: 1px solid rgba(0, 0, 0, 0.12);*/
  }
  .table > caption + thead > tr:first-child > th,
  .table > colgroup + thead > tr:first-child > th,
